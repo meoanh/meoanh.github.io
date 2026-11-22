@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desktop Tools</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1f2328; --muted:#5b6470; --line:#e3e0d8; --accent:#2f6f5e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181b; --fg:#e8e6e1; --muted:#a3a8ae; --line:#2c3035; --accent:#7cc4ad; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 8px; }
+  h2 { font-size:19px; margin:32px 0 4px; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+  section { border-top:1px solid var(--line); padding-top:4px; }
+  footer { margin-top:40px; border-top:1px solid var(--line); padding-top:16px; font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Desktop Tools</h1>
+  <p class="muted">Small Windows tools made by one developer for a group of friends and colleagues.
+  Each one runs on your own PC. None of them has a server that receives your Google data.</p>
+
+  <section>
+    <h2>My Drive Syncer</h2>
+    <p>Uploads and keeps local folders in sync with your Google Drive. It needs access to the
+    Drive files it uploads and updates.</p>
+  </section>
+
+  <section>
+    <h2>Direct Stream</h2>
+    <p>Plays music and video stored in your Google Drive without downloading whole folders first.
+    It only reads your Drive; it never changes or deletes anything.</p>
+  </section>
+
+  <section>
+    <h2>Sync GSheet and Excel</h2>
+    <p>Copies chosen ranges between Excel workbooks on your PC and your Google Sheets, and installs
+    a small Apps Script menu in the spreadsheet you choose.</p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <p class="muted">Công cụ Windows nhỏ cho bạn bè và đồng nghiệp. Mọi dữ liệu Google chỉ được xử lý
+    trên máy của bạn.</p>
+  </footer>
+</main>
+</body>
+</html>
